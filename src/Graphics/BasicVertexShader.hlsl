@@ -5,7 +5,7 @@ struct VertexInput
     float2 uv : TEXCOORD;
 };
 
-struct VertexOutput
+struct VertexOutput // Pixel Shader Input
 {
     float4 position : SV_Position;
     float3 color : COLOR0;

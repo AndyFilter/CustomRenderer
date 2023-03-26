@@ -82,4 +82,7 @@
     <FxCompile Include="src\Graphics\BasicPixelShader.hlsl" />
     <FxCompile Include="src\Graphics\BasicVertexShader.hlsl" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
 </Project>
