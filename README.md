@@ -38,7 +38,7 @@ If you actually want to render some 2D / 3D things you will have to update the *
     };
     ```
     > #### **Order** of the elements in these structures **matters!**
-- With the flag [*D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST*](https://github.com/AndyFilter/CustomRenderer/main/src/Graphics/Graphics.cpp#L156) set, it seems that You can only draw triangles. That's why drawing a rectagle takes 6 vertices rather than 4.
+- With the flag [*D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST*](https://github.com/AndyFilter/CustomRenderer/blob/main/src/Graphics/Graphics.cpp#L156) set, it seems that You can only draw triangles. That's why drawing a rectagle takes 6 vertices rather than 4.
 - Good sources for learning:
    - [Raw DirectX 11](https://alain.xyz/blog/raw-directx11)
    - [Pixel Shader Editor](http://pixelshaders.com/editor/)
